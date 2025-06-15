@@ -77,7 +77,7 @@ const inputClosePin = document.querySelector('.form__input--pin');
 
 //// Simple Array Methods........
 
-/*
+
 let arr = ['a', 'b', 'c', 'd', 'e'];
 
 ///// Slice Method...........
@@ -109,7 +109,7 @@ console.log([...arr, ...arr2]);
 
 /////////// Join.....
 console.log([letters.join(' - ')]);
-*/
+
 
 //////......................................................................///////////////
 
