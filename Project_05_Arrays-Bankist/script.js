@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // BANKIST APP
-
+/*
 // Data
 const account1 = {
   owner: 'Jonas Schmedtmann',
@@ -115,7 +115,7 @@ console.log([letters.join(' - ')]);
 
 ///// The new at Method..
 
-/*
+
 const arr = [23, 11, 64];
 console.log(arr[0]); //// 23
 console.log(arr.at(0)); //// 23
@@ -127,7 +127,7 @@ console.log(arr.at(-1)); //////64
 
 console.log('farhan'.at(0));
 console.log('farhan'.at(-1));
-*/
+
 
 ///
 //////.........................................................................../////////
@@ -179,14 +179,15 @@ console.log(currenciesUnique);
 currenciesUnique.forEach(`function (value, _, map) {
   console.log(${value}: ${value});
 }`);
-
+*/
 //
 ////////........................................................................///////
 
 ///////.......007 PROJECT_ _Bankist_ ............,,😊
 
-/*
+
 // Data
+/*
 const account1 = {
   owner: 'Jonas Schmedtmann',
   movements: [200, 450, -400, 3000, -650, -130, 70, 1300],
@@ -214,6 +215,7 @@ const account4 = {
   interestRate: 1,
   pin: 4444,
 };
+*/
 
 const accounts = [account1, account2, account3, account4];
 
@@ -242,7 +244,7 @@ const inputTransferAmount = document.querySelector('.form__input--amount');
 const inputLoanAmount = document.querySelector('.form__input--loan-amount');
 const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
-*/
+
 
 /////////......................................................................////////
 
@@ -455,7 +457,7 @@ console.log(account);
 /////.....020 Implementing Transfers....
 ///// this time i unable to understand...
 
-/*
+let currentAccount;
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
   e.preventDefault();
@@ -547,13 +549,13 @@ btnSort.addEventListener('click', function (e) {
   e.preventDefault();
   displayMovements(currentAccount.movements, !sorted);
   sorted = !sorted;
-
-  */
+});
+  
 
 ////////////..........................................................//////
 
 //////.. some and every.....
-
+/*
 console.log(movements);
 
 ////// Equality......
@@ -574,6 +576,7 @@ const deposit = mov => mov > 0;
 console.log(movements.some(deposit));
 console.log(movements.every(deposit));
 console.log(movements.filter(deposit));
+*/
 
 /////''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''////
 /////// flat and flatMap....
