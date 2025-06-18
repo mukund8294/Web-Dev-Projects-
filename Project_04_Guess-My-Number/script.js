@@ -82,4 +82,5 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.guess').value = '';
 });
 
-/////// ... the end /////.... completed.../////
+/////// ... the end /////.... completed...////////
+////////////////////////////////////////////////////
