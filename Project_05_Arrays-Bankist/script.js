@@ -234,7 +234,3 @@ btnSort.addEventListener('click', function (e) {
 ////// hello, buddy......
 ////// this is right OACB start......!
 ///// //// THE END OF .... ///// .. COMPLETED....///
-/////
-//////
-///////
-/////////
